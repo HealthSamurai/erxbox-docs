@@ -1,10 +1,26 @@
 # Table of contents
 
-## Getting Started
-
-* [Getting Started](getting-started.md)
-
-## Reference
-
-* [API](api.md)
-* [Release notes](release-notes.md)
+* [ePrescription](README.md)
+  * [Getting Started](getting-started.md)
+  * [Authentication with mTLS](authentication-with-mtls.md)
+  * [Pharmacies Synchronization](pharmacies-synchronization.md)
+  * [Prescribing](prescribing/README.md)
+    * [NewRx Message](prescribing/newrx-message.md)
+    * [CancelRx Message](prescribing/cancelrx-message.md)
+    * [Pharmacy-initiated messages](prescribing/pharmacy-initiated-messages/README.md)
+      * [RxRenewal Message](prescribing/pharmacy-initiated-messages/rx-renewal.md)
+      * [RxChange Message](prescribing/pharmacy-initiated-messages/rx-change.md)
+    * [DetectedIssue](prescribing/detected-issue.md)
+    * [How to test Callback](prescribing/how-to-test-callback.md)
+  * [Directory](directory/README.md)
+    * [DirectoryDownload Message](directory/directorydownload-message.md)
+    * [GetProviderLocation Message](directory/getproviderlocation-message.md)
+    * [AddProviderLocation Message](directory/addproviderlocation-message.md)
+    * [UpdateProviderLocation Message](directory/updateproviderlocation-message.md)
+    * [DisableProviderLocation Message](directory/disableproviderlocation-message.md)
+  * [Medications](medications/README.md)
+    * [FDB](medications/fdb.md)
+  * [References](reference/README.md)
+    * [Environment Variables](reference/environment-variables.md)
+    * [List of Metrics](reference/list-of-metrics.md)
+  * [Frequently Asked Questions](frequently-asked-questions.md)
