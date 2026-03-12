@@ -25,7 +25,7 @@ Resources created:
 
 Ways to track the newly created **MedicationRequest**s:
 
-- [Either of Aidbox Subscriptions mechanisms](https://docs.aidbox.app/docs/aidbox/modules/topic-based-subscriptions)
+- [Either of Aidbox Subscriptions mechanisms](https://www.health-samurai.io/docs/aidbox/modules/topic-based-subscriptions)
 - Manual/automated tracking based on **MedicationRequest** modification date and/or status
 
 The ePrescription module creates a **DetectedIssue** whenever inbound request data diverges from existing records;

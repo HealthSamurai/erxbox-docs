@@ -45,7 +45,7 @@ Surescripts has specific requirements for synchronization:
 #### Sync schedule
 
 {% hint style="warning" %}
-Note that automatic scheduling only works in Aidbox FHIR Schema mode. [See Aidbox docs for how to migrate to FHIR Schema](https://docs.aidbox.app/docs/aidbox/tutorials/artifact-registry-tutorials/custom-resources/migrate-to-fhirschema/).
+Note that automatic scheduling only works in Aidbox FHIR Schema mode. [See Aidbox docs for how to migrate to FHIR Schema](https://www.health-samurai.io/docs/aidbox/tutorials/artifact-registry-tutorials/custom-resources/migrate-to-fhirschema/).
 {% endhint %}
 
 There is a default sync schedule configuration
